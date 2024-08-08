@@ -1,0 +1,20 @@
+{
+    "productos": [
+        { "id": 1, "nombre": "motorola moto e7", "foto": "img/motorola-moto-e7.jpg", "descripcion": "CELULAR LIBERADO MOTO E7 AZUL 6.5 OCTA-CORE 2GB+32GB 48MPX HUELLA MOTOROLA"},
+        { "id": 2, "nombre": "IPhone 12", "foto": "/public/img/apple-iphone-12.jpg", "descripcion": "CELULAR LIBERADO, 6.1, 4 GB DE RAM, CHIP A14 BIONIC, RESISTENTE AL AGUA"},
+        { "id": 3, "nombre": "camara canon", "foto": "/public/img/camara-canon.jpeg", "descripcion": "CANON EOS REBEL KIT T100 + LENTE 18-55mm III DSLR COLOR NEGRO"},
+        { "id": 4, "nombre": "Chromecast 3", "foto": "/public/img/chromecast-google.jpg", "descripcion": "CONECTA TU TV CON CABLE FLEXIBLE DE SALIDA HDMI + PUERTO USB PARA CARGA"},
+        { "id": 5, "nombre": "DJI Mavic 2 Pro", "foto": "/public/img/dji-mavic-2-pro.jpg", "descripcion": "CAMARA 4K, HASTA 72KM/H, 4 MOTORES, TIEMPO MAXIMO DE VUELO DE 31 MIN., INCLUYE 3 BATERIAS"},
+        { "id": 6, "nombre": "Auriculares Sony Inhalámbricos", "foto": "/public/img/auriculares-sony.jpg", "descripcion": "ALCANCE INHALAMBRICO DE 10 MTS, MANOS LIBRES, CON MICROFONO INCORPORADO, TAMAÑO DE ALTAVOZ 30 MM"},
+        { "id": 7, "nombre": "Drone Dji Mini", "foto": "/public/img/dron-dji-mini.jpeg", "descripcion": "CAMARA 4K, 4 MOTORES, VIENE CON 3 BATERIAS,TIEMPO MAXIMO DE VUELO DE 38 MIN"},
+        { "id": 8, "nombre": "Modem Motorola Surfboard SB5101", "foto": "/public/img/modem-motorola-surfboard.webp", "descripcion": "30MBPS DE INTERNET, DOCSIS 2.0, LUCES LED INDICADORAS DE ESTADO, PUERTO ETHERNET 10/100, SOPORTA 63 USUARIOS"},
+        { "id": 9, "nombre": "Notebook Lenovo IP3 Aereo5", "foto": "/public/img/notebook-lenovo.jpg", "descripcion": "PROCESADOR AMD RYZEN 3, GRAFICOS AMD RADEON INTEGRADOS, MEMORIA DDR4-3200 SOLDADO DE  4GB, SSD DE 256GB"},
+        { "id": 10, "nombre": "Parlante portátil JBL Flip Negro", "foto": "/public/img/parlante-jbl.jpg", "descripcion": "20 WATTS DE POTENCIA, RESISTENTE AL AGUA, BLUETOOTH, HASTA 12 HS DE MUSICA"},
+        { "id": 11, "nombre": "Samsung tu7000 4K 50 pulgadas", "foto": "/public/img/samsung-tu7000.jpg", "descripcion": "TV SMART 4K, PANTALLA LED, USB, HDMI, WI-FI, BLUETOOTH, 2 PARLANTES, DOLBY DIGITAL PLUS"},
+        { "id": 12, "nombre": "Sony playstation 5", "foto": "/public/img/sony-playstation-5.jpg", "descripcion": "MEMORIA RAM DE 16GB, WI-FI, BLUETOOTH, VIENE CON 1 CONTROL, CABLE HDMI Y USB, SOPORTA RED 4G"},
+        { "id": 13, "nombre": "Notebook Dell Latitude 3520", "foto": "/public/img/notebook-dell-latitude-5520.jpg", "descripcion": "INTEL CORE I7 1165G7, INTEL IRIS XE GRAPHICS, SSD 256GB, 8GB DE RAM, WINDOWS 10"},
+        { "id": 14, "nombre": "Xbox One", "foto": "/public/img/xbox-one.jpg", "descripcion": "CAPACIDAD DE 500GB, 8GB DE RAM, WI-FI, HDMI, USB, CPU AMD JAGUAR, GPU AMD RADEON, INCLUYE 1 CONTROL INHALAMBRICO"},
+        { "id": 15, "nombre": "Parlante Portátil Soul", "foto": "/public/img/parlante-karaoke.webp", "descripcion": "VOLTAJE 220V, BLUETOTH, BATERIA RECARGABLE, POTENCIA DE 3W, VIENE CON 1 MICROFONO, TIEMPO DE CARGA DE LA BATERIA 3 HS"} 
+        
+    ]
+}

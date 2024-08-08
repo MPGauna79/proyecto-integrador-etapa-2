@@ -1,0 +1,129 @@
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.contacto-formulario {
+    background-color: #C3BEFF;
+    height: 40rem;
+    width: 100rem;
+    align-self: center;
+    
+    
+&__ficha{
+    
+    text-align: center;
+    height: 40rem;
+    
+    
+    
+ 
+}    
+&__ficha-items{
+    margin-top: 2rem;
+    border-radius: 10px;
+
+&__enviar{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 10px;
+    background-color: #A559FF;
+    color: white;
+    margin-bottom: 7rem;
+}    
+}
+
+&__ficha-input{
+    height:2rem;
+    width: 20rem;
+    border-radius: 10px;
+}
+
+&__ficha-select{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 10px;
+}
+
+.whatsapp {
+    background-color: #25d366;
+    position: fixed;
+    bottom: 70px;
+    right: 50px;
+    width: 55px;
+    height: 55px;
+    color: white;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;   
+    margin-top: 1rem;
+    background-color: #A559FF;
+    
+    
+
+    @media (max-width: 576px) {
+        & { /* .footer */
+            flex-direction: column;
+        }
+    }
+
+&__siguenos {
+   
+    margin-left: 2%;
+    
+    
+}    
+
+
+&__siguenos__fb {
+    font-size: 30px;
+    color: blue;
+    margin-right: 5px;
+    
+}
+&__siguenos__tw {
+    font-size: 30px;
+    color: black;
+    margin-right: 5px;
+}
+
+&__siguenos__in {
+    font-size: 30px;
+    color: orangered;
+    margin-right: 5px;
+}
+
+&__siguenos__yt {
+    font-size: 30px;
+    color: red;
+}
+
+
+
+&__derechos {
+    width:73%;
+    
+}
+
+&__derechos__copy{
+    margin-left: 40%;
+    margin-top: 5rem;
+}
+
+
+}
+
+@media (max-width: 768px) {
+    & { /* .footer */
+        flex-direction: column-reverse;
+    }
+}
+}

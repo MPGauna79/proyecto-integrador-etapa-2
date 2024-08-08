@@ -1,0 +1,188 @@
+/* -------------------------------------------------------- */
+/* HEADER */
+/* -------------------------------------------------------- */
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 576px) {
+        & { /* .main-header */
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+#menu {
+    display: none;
+
+    &:checked + .nav-bar {
+        display: block;
+    }
+
+    &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
+        background-color: yellow;
+    }
+
+}
+
+/* -------------------------------------------------------- */
+/* NAVBAR */
+/* -------------------------------------------------------- */
+
+.nav-bar {
+    background-color: white;
+    height: 5rem;
+    
+    &__logo-container { /* .search-bar__logo-container */
+        width: 5rem;
+        height: 5rem;
+        position: absolute;
+    }
+
+    &__nav-list { /* .nav-bar__nav-list */
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        
+        @media (max-width: 576px) {
+            & {
+                flex-direction: column;
+            }
+        }
+    }
+
+    &__nav-item {
+        text-align: center;
+        background-color: white;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        
+        
+        
+    }
+
+    &__nav-link {
+        display: block;
+        background-color: #A559FF;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        border-radius: 10px;
+        height: 1.5rem;
+        padding-bottom: 2rem;
+        color: white;
+        
+    }
+
+    @media (max-width: 576px) {
+        & { /* .nav-bar */
+            display: none;
+        }
+    }
+
+   
+}
+
+/* -------------------------------------------------------- */
+/* SEARCH BAR */
+/* -------------------------------------------------------- */
+
+.search-bar {
+    background-color: white;
+    display: flex; 
+    
+
+    
+        
+    
+
+    &__form-container {
+       padding: 1rem;
+
+       background-color: gold;
+       border-radius: 10px;
+       display: flex;
+       flex-basis: 100%;
+       justify-content: center;
+    }
+
+    &__form-label {
+        background-color: gold;
+    }
+
+    &__form-search {
+        background-color: papayawhip;
+        width: 70%;
+    }
+
+    &__form-submit {
+        background-color: #A559FF;
+        color: white;
+        width: 10rem;
+        border-radius: 10px;
+        margin-left: 5px;
+    }
+    
+    &__carrito-container {
+        flex: 0 0 3rem; /* shorthand (grow shrink basis */
+        background-color: white;
+        position:initial;
+        
+        
+    }
+
+    &__carrito-container__logo{
+        height: 1rem;
+        width: 1rem;
+        
+    }
+
+}
+
+/* -------------------------------------------------------- */
+/* MENÚ TOOGLE */
+/* -------------------------------------------------------- */
+
+.menu-toogle {
+    display: none;
+    background-color: red;
+    flex: 0 0 3rem;
+    position: relative;
+    cursor: pointer;
+
+    &__label {
+        display: block;
+        background-color: black;
+        height: 100%;
+    }
+
+    &__top-bread,
+    &__meat,
+    &__bottom-bread {
+        display: block;
+        background-color: #333;
+        height: .2rem;
+        position: relative;
+        left: .5rem;
+        right: .5rem;
+    }
+
+    &__top-bread {
+        top: .8rem;
+    }
+
+    &__meat {
+        top: 50%;
+        margin-top: -.1rem;
+    }
+    &__bottom-bread {
+        bottom: .8rem;
+    }
+
+    @media (max-width: 576px) {
+        & { /* .menu-toogle */
+            display: block;
+        }
+    }
+}
+

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">   
+    <title>Todo Techno</title>
+  </head>
+  <body>
+
+    
+
+    <header class="main-header">
+      <input type="checkbox" id="menu">
+
+      <nav class="nav-bar">
+        <img class="nav-bar__logo-container" src="public/img/LOGO.png">
+        <ul class="nav-bar__nav-list">
+          <li class="nav-bar__nav-item">
+            <a href="inicio.html" class="nav-bar__nav-link">Inicio</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="#" class="nav-bar__nav-link">Alta</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="/views/nosotros.html" class="nav-bar__nav-link">Nosotros</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="/views/contacto.html" class="nav-bar__nav-link">Contacto</a>
+          </li>
+        </ul>
+      </nav> <!-- .nav-bar -->
+
+      <div class="search-bar">
+        <form action="#" class="search-bar__form-container">
+          <label for="busqueda" class="search-bar__form-label">Buscar</label>
+          <input type="search" class="search-bar__form-search" id="busqueda">
+          <input type="submit" class="search-bar__form-submit" value="Buscar">
+        </form>
+        <div class="search-bar__carrito-container"
+          img class="search-bar__carrito-container__logo" src="/public/img/carrito-de-compras.png">
+        </div>
+                <div class="search-bar__menu-toogle">
+          <label for="menu" class="menu-toogle__label">
+            <span class="menu-toogle__top-bread"></span>
+            <span class="menu-toogle__meat"></span>
+            <span class="menu-toogle__bottom-bread"></span>
+          </label>
+        </div>
+      </div> <!-- .search-bar -->
+
+    </header> <!-- main-header -->
+
+    <main>
+      <section class="section-cards">
+        <header class="section-cards__header">
+          <h1>Aquí encontrarás la mas variada oferta para todos los gustos</h1>
+          <p></p>
+        </header>
+      
+      
+        <div class="cards-container" id="contenedor-cards">
+
+          
+          
+        </div>
+
+      </section> <!-- .section-cards -->
+    </main>
+
+    
+    <!-- footer -->
+   <footer class="footer">
+    
+    
+    <div class="footer__derechos">
+      <p class="footer__derechos__copy">Copyright@InTEch. All right reserved. </p>
+      
+    </div>
+    <div class="footer__siguenos">
+      <h2 >SIGUENOS</h2>
+    
+      
+        <span class="footer__siguenos__fb"><i class="fa-brands fa-facebook"></i></span>
+        <span class="footer__siguenos__tw"><i class="fa-brands fa-x-twitter"></i></span>
+        <span class="footer__siguenos__in"><i class="fa-brands fa-instagram"></i></span>
+        <span class="footer__siguenos__yt"><i class="fa-brands fa-youtube"></i></span>
+      
+    </div>
+   </footer> 
+   <div class="whatsapp"><i class="fa-brands fa-whatsapp fa-2xl"></i></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

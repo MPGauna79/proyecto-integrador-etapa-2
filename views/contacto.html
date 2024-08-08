@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Proyecto Integrador - Contacto</title>
+</head>
+
+          
+
+        <header class="main-header">
+          <input type="checkbox" id="menu">
+    
+          <nav class="nav-bar">
+            <img class="nav-bar__logo-container" src="../public/img/LOGO.png">
+            <ul class="nav-bar__nav-list">
+              <li class="nav-bar__nav-item">
+                <a href="inicio.html" class="nav-bar__nav-link">Inicio</a>
+              </li>
+              <li class="nav-bar__nav-item">
+                <a href="#" class="nav-bar__nav-link">Alta</a>
+              </li>
+              <li class="nav-bar__nav-item">
+                <a href="/views/nosotros.html" class="nav-bar__nav-link">Nosotros</a>
+              </li>
+              <li class="nav-bar__nav-item">
+                <a href="/views/contacto.html" class="nav-bar__nav-link">Contacto</a>
+              </li>
+            </ul>
+          </nav> <!-- .nav-bar -->  
+        </header>  
+
+        
+      
+      <body>
+        <div class="contacto">
+        <form class="contacto-formulario">
+            
+          <fieldset class="contacto-formulario__ficha">
+          <legend class="contacto-formulario__ficha__enunciado">Datos Personales</legend>
+          <DIV>     
+          <label>
+          <div class="contacto-formulario__ficha-items">Nombre: *</div>  
+            <input class="contacto-formulario__ficha-input" type="text" name="nombre" required>
+          </label>
+          </DIV>
+          
+          
+          <DIV>
+          <label>
+           <div class="contacto-formulario__ficha-items"> Apellido: *</div>
+            <input class="contacto-formulario__ficha-input" type="text" name="Apellido" required>
+          </label>
+          </DIV>
+          
+          <DIV>
+          <label>
+            <div class="contacto-formulario__ficha-items">Documento: *</div>
+            <input class="contacto-formulario__ficha-input" type="text" name="Documento" required>
+          </label>
+          </DIV>
+      
+          <div>
+          <label>
+            <div class="nacionalidad contacto-formulario__ficha-items">Nacionalidad:*</div> 
+            <select class="contacto-formulario__ficha-select" name="Nacionalidad" id="opciones">
+              <option value="opcion-1">Argentina</option>
+              <option value="opcion-2">Chile</option>
+              <option value="opcion-3">Brasil</option>
+              <option value="opcion-4">Colombia</option>
+            </select>
+          </label>
+          </div>
+      
+          <div>
+          
+         <div class="contacto-formulario__ficha-items">
+            <label >
+               Observaciones 
+            </label>
+          <div>
+            <textarea class="contacto-formulario__ficha-items" name="info" cols="60" rows="3"></textarea>
+          </div>  
+      
+          <div class="contacto-formulario__ficha-items">
+            <button class="contacto-formulario__ficha-items__enviar" type="submit">Enviar</button>
+          </div>
+             
+        </form>
+      </div>
+
+    <!-- footer -->
+    <footer class="footer">
+    
+    
+      <div class="footer__derechos">
+        <p class="footer__derechos__copy">Copyright@InTEch. All right reserved. </p>
+        
+      </div>
+      <div class="footer__siguenos">
+        <h2 >SIGUENOS</h2>
+      
+        
+          <span class="footer__siguenos__fb"><i class="fa-brands fa-facebook"></i></span>
+          <span class="footer__siguenos__tw"><i class="fa-brands fa-x-twitter"></i></span>
+          <span class="footer__siguenos__in"><i class="fa-brands fa-instagram"></i></span>
+          <span class="footer__siguenos__yt"><i class="fa-brands fa-youtube"></i></span>
+        
+      </div>
+     </footer>    
+
+    <div class="whatsapp"><i class="fa-brands fa-whatsapp fa-2xl"></i></div>
+
+  </body>
+    
+    <script type="module" src="/main.js"></script>
+</body>
+</html>

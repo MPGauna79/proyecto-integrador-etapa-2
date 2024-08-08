@@ -1,0 +1,59 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;   
+    margin-top: 1rem;
+    background-color: #A559FF;
+    
+    
+
+    @media (max-width: 576px) {
+        & { /* .footer */
+            flex-direction: column;
+        }
+    }
+
+&__siguenos {
+   
+    margin-left: 2%;
+    
+    
+}    
+
+
+&__siguenos__fb {
+    font-size: 30px;
+    color: blue;
+    margin-right: 5px;
+    
+}
+&__siguenos__tw {
+    font-size: 30px;
+    color: black;
+    margin-right: 5px;
+}
+
+&__siguenos__in {
+    font-size: 30px;
+    color: orangered;
+    margin-right: 5px;
+}
+
+&__siguenos__yt {
+    font-size: 30px;
+    color: red;
+}
+
+
+
+&__derechos {
+    width:73%;
+    
+}
+
+&__derechos__copy{
+    margin-left: 40%;
+    margin-top: 5rem;
+}
+
+
+}
